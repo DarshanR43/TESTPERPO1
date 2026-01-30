@@ -60,6 +60,5 @@ if __name__ == "__main__":
     manager.add_student("S1", "Alice")
     manager.add_course("C1", "Math", 2)
 
-    manager.register("S1", "C1")
 
     print(manager.list_student_courses("S1"))
